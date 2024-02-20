@@ -1,0 +1,143 @@
+0
+00:00:00,000 --> 00:00:00,180
+<font color="#00ff00">hoy</font> que trata sobre la sanidad del ciego Bartimeo y la desesperación con la que
+
+1
+00:00:00,180 --> 00:00:00,300
+hoy <font color="#00ff00">que</font> trata sobre la sanidad del ciego Bartimeo y la desesperación con la que
+
+2
+00:00:00,300 --> 00:00:00,500
+hoy que <font color="#00ff00">trata</font> sobre la sanidad del ciego Bartimeo y la desesperación con la que
+
+3
+00:00:00,500 --> 00:00:00,900
+hoy que trata <font color="#00ff00">sobre</font> la sanidad del ciego Bartimeo y la desesperación con la que
+
+4
+00:00:00,900 --> 00:00:01,100
+hoy que trata sobre <font color="#00ff00">la</font> sanidad del ciego Bartimeo y la desesperación con la que
+
+5
+00:00:01,100 --> 00:00:01,600
+hoy que trata sobre la <font color="#00ff00">sanidad</font> del ciego Bartimeo y la desesperación con la que
+
+6
+00:00:01,600 --> 00:00:02,380
+hoy que trata sobre la sanidad <font color="#00ff00">del</font> ciego Bartimeo y la desesperación con la que
+
+7
+00:00:02,380 --> 00:00:02,780
+hoy que trata sobre la sanidad del <font color="#00ff00">ciego</font> Bartimeo y la desesperación con la que
+
+8
+00:00:02,780 --> 00:00:03,500
+hoy que trata sobre la sanidad del ciego <font color="#00ff00">Bartimeo</font> y la desesperación con la que
+
+9
+00:00:03,500 --> 00:00:04,020
+hoy que trata sobre la sanidad del ciego Bartimeo <font color="#00ff00">y</font> la desesperación con la que
+
+10
+00:00:04,020 --> 00:00:04,160
+hoy que trata sobre la sanidad del ciego Bartimeo y <font color="#00ff00">la</font> desesperación con la que
+
+11
+00:00:04,160 --> 00:00:05,320
+hoy que trata sobre la sanidad del ciego Bartimeo y la <font color="#00ff00">desesperación</font> con la que
+
+12
+00:00:05,320 --> 00:00:05,600
+hoy que trata sobre la sanidad del ciego Bartimeo y la desesperación <font color="#00ff00">con</font> la que
+
+13
+00:00:05,600 --> 00:00:05,740
+hoy que trata sobre la sanidad del ciego Bartimeo y la desesperación con <font color="#00ff00">la</font> que
+
+14
+00:00:05,740 --> 00:00:05,900
+hoy que trata sobre la sanidad del ciego Bartimeo y la desesperación con la <font color="#00ff00">que</font>
+
+15
+00:00:05,900 --> 00:00:06,060
+<font color="#00ff00">es</font> hombre clamaba por su sanidad,
+
+16
+00:00:06,060 --> 00:00:06,240
+es <font color="#00ff00">hombre</font> clamaba por su sanidad,
+
+17
+00:00:06,240 --> 00:00:06,940
+es hombre <font color="#00ff00">clamaba</font> por su sanidad,
+
+18
+00:00:06,940 --> 00:00:07,180
+es hombre clamaba <font color="#00ff00">por</font> su sanidad,
+
+19
+00:00:07,180 --> 00:00:07,340
+es hombre clamaba por <font color="#00ff00">su</font> sanidad,
+
+20
+00:00:07,340 --> 00:00:07,880
+es hombre clamaba por su <font color="#00ff00">sanidad,</font>
+
+21
+00:00:08,380 --> 00:00:08,440
+<font color="#00ff00">él</font> podía ver lo que los otras gente no veían, él estando ciego.
+
+22
+00:00:08,440 --> 00:00:08,780
+él <font color="#00ff00">podía</font> ver lo que los otras gente no veían, él estando ciego.
+
+23
+00:00:08,780 --> 00:00:09,260
+él podía <font color="#00ff00">ver</font> lo que los otras gente no veían, él estando ciego.
+
+24
+00:00:09,260 --> 00:00:09,440
+él podía ver <font color="#00ff00">lo</font> que los otras gente no veían, él estando ciego.
+
+25
+00:00:09,440 --> 00:00:09,580
+él podía ver lo <font color="#00ff00">que</font> los otras gente no veían, él estando ciego.
+
+26
+00:00:09,580 --> 00:00:09,620
+él podía ver lo que los otras gente no veían, él estando ciego.
+
+27
+00:00:09,620 --> 00:00:09,740
+él podía ver lo que <font color="#00ff00">los</font> otras gente no veían, él estando ciego.
+
+28
+00:00:09,740 --> 00:00:10,080
+él podía ver lo que los <font color="#00ff00">otras</font> gente no veían, él estando ciego.
+
+29
+00:00:10,080 --> 00:00:10,500
+él podía ver lo que los otras <font color="#00ff00">gente</font> no veían, él estando ciego.
+
+30
+00:00:10,500 --> 00:00:10,760
+él podía ver lo que los otras gente <font color="#00ff00">no</font> veían, él estando ciego.
+
+31
+00:00:10,760 --> 00:00:11,260
+él podía ver lo que los otras gente no <font color="#00ff00">veían,</font> él estando ciego.
+
+32
+00:00:11,260 --> 00:00:11,440
+él podía ver lo que los otras gente no veían, él estando ciego.
+
+33
+00:00:11,440 --> 00:00:11,800
+él podía ver lo que los otras gente no veían, <font color="#00ff00">él</font> estando ciego.
+
+34
+00:00:11,800 --> 00:00:12,380
+él podía ver lo que los otras gente no veían, él <font color="#00ff00">estando</font> ciego.
+
+35
+00:00:12,380 --> 00:00:12,840
+él podía ver lo que los otras gente no veían, él estando <font color="#00ff00">ciego.</font>

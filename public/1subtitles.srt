@@ -1,0 +1,143 @@
+0
+00:00:00,000 --> 00:00:00,160
+<font color="#00ff00">Los</font> profetas no salían por ahí como que llegué yo,
+
+1
+00:00:00,160 --> 00:00:00,640
+Los <font color="#00ff00">profetas</font> no salían por ahí como que llegué yo,
+
+2
+00:00:00,640 --> 00:00:00,800
+Los profetas <font color="#00ff00">no</font> salían por ahí como que llegué yo,
+
+3
+00:00:00,800 --> 00:00:01,220
+Los profetas no <font color="#00ff00">salían</font> por ahí como que llegué yo,
+
+4
+00:00:01,220 --> 00:00:01,420
+Los profetas no salían <font color="#00ff00">por</font> ahí como que llegué yo,
+
+5
+00:00:01,420 --> 00:00:01,600
+Los profetas no salían por <font color="#00ff00">ahí</font> como que llegué yo,
+
+6
+00:00:01,600 --> 00:00:01,900
+Los profetas no salían por ahí <font color="#00ff00">como</font> que llegué yo,
+
+7
+00:00:01,900 --> 00:00:02,160
+Los profetas no salían por ahí como <font color="#00ff00">que</font> llegué yo,
+
+8
+00:00:02,160 --> 00:00:02,620
+Los profetas no salían por ahí como que <font color="#00ff00">llegué</font> yo,
+
+9
+00:00:02,620 --> 00:00:02,920
+Los profetas no salían por ahí como que llegué <font color="#00ff00">yo,</font>
+
+10
+00:00:03,220 --> 00:00:03,340
+<font color="#00ff00">por</font> eso amos dice,
+
+11
+00:00:03,340 --> 00:00:03,520
+por <font color="#00ff00">eso</font> amos dice,
+
+12
+00:00:03,520 --> 00:00:03,800
+por eso <font color="#00ff00">amos</font> dice,
+
+13
+00:00:03,800 --> 00:00:04,040
+por eso amos <font color="#00ff00">dice,</font>
+
+14
+00:00:04,260 --> 00:00:04,340
+<font color="#00ff00">yo</font> no soy profeta ni hijo de profeta.
+
+15
+00:00:04,340 --> 00:00:04,440
+yo <font color="#00ff00">no</font> soy profeta ni hijo de profeta.
+
+16
+00:00:04,440 --> 00:00:04,660
+yo no <font color="#00ff00">soy</font> profeta ni hijo de profeta.
+
+17
+00:00:04,660 --> 00:00:05,340
+yo no soy <font color="#00ff00">profeta</font> ni hijo de profeta.
+
+18
+00:00:05,340 --> 00:00:05,960
+yo no soy profeta <font color="#00ff00">ni</font> hijo de profeta.
+
+19
+00:00:05,960 --> 00:00:06,320
+yo no soy profeta ni <font color="#00ff00">hijo</font> de profeta.
+
+20
+00:00:06,320 --> 00:00:06,500
+yo no soy profeta ni hijo <font color="#00ff00">de</font> profeta.
+
+21
+00:00:06,500 --> 00:00:06,900
+yo no soy profeta ni hijo de <font color="#00ff00">profeta.</font>
+
+22
+00:00:07,620 --> 00:00:07,680
+<font color="#00ff00">O</font> sea, yo no estoy en la institución que certifica a un profeta.
+
+23
+00:00:07,680 --> 00:00:07,840
+O <font color="#00ff00">sea,</font> yo no estoy en la institución que certifica a un profeta.
+
+24
+00:00:07,840 --> 00:00:07,980
+O sea, yo no estoy en la institución que certifica a un profeta.
+
+25
+00:00:07,980 --> 00:00:08,060
+O sea, <font color="#00ff00">yo</font> no estoy en la institución que certifica a un profeta.
+
+26
+00:00:08,060 --> 00:00:08,180
+O sea, yo <font color="#00ff00">no</font> estoy en la institución que certifica a un profeta.
+
+27
+00:00:08,180 --> 00:00:08,420
+O sea, yo no <font color="#00ff00">estoy</font> en la institución que certifica a un profeta.
+
+28
+00:00:08,420 --> 00:00:08,680
+O sea, yo no estoy <font color="#00ff00">en</font> la institución que certifica a un profeta.
+
+29
+00:00:08,680 --> 00:00:08,860
+O sea, yo no estoy en <font color="#00ff00">la</font> institución que certifica a un profeta.
+
+30
+00:00:08,860 --> 00:00:09,800
+O sea, yo no estoy en la <font color="#00ff00">institución</font> que certifica a un profeta.
+
+31
+00:00:09,800 --> 00:00:10,720
+O sea, yo no estoy en la institución <font color="#00ff00">que</font> certifica a un profeta.
+
+32
+00:00:10,720 --> 00:00:11,760
+O sea, yo no estoy en la institución que <font color="#00ff00">certifica</font> a un profeta.
+
+33
+00:00:11,760 --> 00:00:11,840
+O sea, yo no estoy en la institución que certifica <font color="#00ff00">a</font> un profeta.
+
+34
+00:00:11,840 --> 00:00:11,940
+O sea, yo no estoy en la institución que certifica a <font color="#00ff00">un</font> profeta.
+
+35
+00:00:11,940 --> 00:00:12,420
+O sea, yo no estoy en la institución que certifica a un <font color="#00ff00">profeta.</font>
