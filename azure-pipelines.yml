@@ -1,0 +1,25 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool: linux_remote_server
+
+stages:
+- stage: Build
+  displayName: Build stage
+  jobs:  
+  - job: Build
+    displayName: Build DockerFile Project
+    steps:
+    - script: docker build -t elrenuevo_video:latest .
+    - script: docker tag elrenuevo_video image.oscgre.com/elrenuevo_video
+    - script: docker push image.oscgre.com/elrenuevo_video 
+        
+    - task: PublishBuildArtifacts@1
+      inputs:
+        pathToPublish: $(Build.ArtifactStagingDirectory)
+        artifactName: drop    
