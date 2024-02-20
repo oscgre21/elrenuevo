@@ -1,4 +1,4 @@
-# Remotion Audiogram Template
+# Remotion ElRenuevo APP Video Editor
  
 
 ## How do I render my video?
