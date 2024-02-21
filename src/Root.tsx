@@ -91,7 +91,7 @@ export const RemotionRoot: React.FC = () => {
 						waveLinesToDisplay: 10,
 						waveNumberOfSamples: '256', // This is string for Remotion controls and will be converted to a number
 						mirrorWave: true,
-						durationInSeconds:subtitles.durationInSeconds,
+						durationInSeconds: parseInt(`${subtitles.durationInSeconds}`, 10),
 					}}
 					// Determine the length of the video based on the duration of the audio file
 					calculateMetadata={({ props }) => {
