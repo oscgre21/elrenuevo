@@ -1,6 +1,8 @@
 FROM node:20-bookworm
 RUN apt-get update
 RUN apt-get install -y chromium
+RUN apt-get install -y ffmpeg && \
+    rm -rf /var/lib/apt/lists/*
 # Set the working directory in the container
 WORKDIR /app
 # Copy package.json and package-lock.json to the working directory
