@@ -3,6 +3,7 @@ import { AudioGramSchema, AudiogramComposition, fps } from './Composition';
 import './style.css';
 import { AudioGramSchema2, DevotionalComposition } from './composition/Devotional';
 import { JeannetteComposition } from './composition/Jeannette';
+import React, { useEffect, useRef, useState } from 'react';
 
 export const obtenerFechaActualEnFormato = ()=> {
 	const mesesAbreviados = [
@@ -19,6 +20,25 @@ export const obtenerFechaActualEnFormato = ()=> {
   }
 
 export const RemotionRoot: React.FC = () => {
+	const [subtitles, setSubtitles] = useState<any>(null);
+	const fileName=staticFile("info.json");
+	useEffect(() => { 
+		fetch(fileName)
+			.then((res) => res.text())
+			.then((text) => {
+				console.log(JSON.parse(text))
+				setSubtitles(JSON.parse(text)); 
+			})
+			.catch((err) => {
+				console.log('Error fetching subtitles', err);
+			});
+	}, [ fileName]);
+
+	if (!subtitles) {
+		return null;
+	}
+	console.log('Subtitle::',subtitles.durationInSeconds)
+
 	return (
 		<>
 			{
@@ -54,8 +74,8 @@ export const RemotionRoot: React.FC = () => {
 						// Title settings
 						audioFileName: staticFile('audio.mp3'),
 						coverImgFileName: staticFile('cover.jpg'),
-						titulo: '',
-						versiculo: 'MARCOS 15:1-23',
+						titulo: subtitles.titulo,
+						versiculo: subtitles.versiculo,
 						fecha: obtenerFechaActualEnFormato(),
 						titleColor: 'rgba(186, 186, 186, 0.93)',
 						// Subtitles settings
@@ -71,7 +91,7 @@ export const RemotionRoot: React.FC = () => {
 						waveLinesToDisplay: 10,
 						waveNumberOfSamples: '256', // This is string for Remotion controls and will be converted to a number
 						mirrorWave: true,
-						durationInSeconds: 720,
+						durationInSeconds:subtitles.durationInSeconds,
 					}}
 					// Determine the length of the video based on the duration of the audio file
 					calculateMetadata={({ props }) => {

@@ -145,8 +145,7 @@ export const DevotionalComposition: React.FC<AudiogramCompositionSchemaType> = (
 				console.log('Error fetching subtitles', err);
 			});
 	}, [handle, subtitlesFileName]);
-
-
+ 
 	if (!subtitles) {
 		return null;
 	}
