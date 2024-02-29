@@ -4,6 +4,7 @@ import './style.css';
 import { AudioGramSchema2, DevotionalComposition } from './composition/Devotional';
 import { JeannetteComposition } from './composition/Jeannette';
 import React, { useEffect, useRef, useState } from 'react';
+import subtitles from '../public/info.json'; 
 
 export const obtenerFechaActualEnFormato = ()=> {
 	const mesesAbreviados = [
@@ -19,24 +20,14 @@ export const obtenerFechaActualEnFormato = ()=> {
 	return fechaFormateada;
   }
 
-export const RemotionRoot: React.FC = () => {
-	const [subtitles, setSubtitles] = useState<any>(null);
+  export const getJsonFile = async ()=> {
 	const fileName=staticFile("info.json");
-	useEffect(() => { 
-		fetch(fileName)
-			.then((res) => res.text())
-			.then((text) => {
-				console.log(JSON.parse(text))
-				setSubtitles(JSON.parse(text)); 
-			})
-			.catch((err) => {
-				console.log('Error fetching subtitles', err);
-			});
-	}, [ fileName]);
-
-	if (!subtitles) {
-		return null;
-	}
+	const data = await fetch(fileName);
+	const text = await data.text();
+	return JSON.parse(text)
+  }
+export const RemotionRoot: React.FC = () => {
+  
 	console.log('Subtitle::',subtitles.durationInSeconds)
 
 	return (
@@ -105,3 +96,5 @@ export const RemotionRoot: React.FC = () => {
 		</>
 	);
 };
+
+
