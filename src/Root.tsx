@@ -53,7 +53,7 @@ export const RemotionRoot: React.FC = () => {
 		*/
 
 				<Composition
-					id="Audiogram"
+					id="video"
 					component={DevotionalComposition}
 					fps={fps}
 					width={1920}

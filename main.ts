@@ -59,6 +59,10 @@ async function bootstrap() {
 								console.log('TIEMPO::', timeInSecond);
 								writeFile('./public/info.json', JSON.stringify(data));
 								console.log('Realizando el build')
+								bot.sendMessage(
+									chatId,
+									'Procesando el video, generando el render'
+								);
 								exec("npm run build",	(error, stdout, stderr) => {
 									if (error) {
 										console.error(`Error: ${error.message}`);
@@ -71,7 +75,7 @@ async function bootstrap() {
 									console.log('Terminando el build')
 									bot.sendMessage(
 										chatId,
-										'Archivo cargado correctamente, proceder a generar el Render:: https://elrenuevo.oscgre.com/Audiogram '
+										'Archivo cargado correctamente, proceder a generar el Render:: https://elrenuevo.oscgre.com/Audiogram y para descargar video final adjunto URL: https://video-renuevo.oscgre.com/video.mp4'
 									);
 								});
 

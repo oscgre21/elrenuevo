@@ -1,12 +1,12 @@
 {
   "name": "caption",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "description": "El renuevo video render",
   "scripts": {
     "start": "npm-run-all --parallel start:bot startx",
     "start:bot": "ts-node main.ts",
     "startx": "remotion studio",
-    "build": "remotion render Audiogram out/video.mp4",
+    "build": "remotion render video out/video.mp4",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
