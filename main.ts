@@ -1,8 +1,28 @@
+import { uploadVideo } from "./youtube-upload"; // Assuming module.ts is in the same directory
 import { exec } from 'child_process';
-import * as fs from 'fs'; 
+import * as fs from 'fs';  
+
 const TelegramBot = require('node-telegram-bot-api');
 
+
+const description = `
+Redes Sociales
+📌 Instagram: https://www.instagram.com/RenuevoSD
+
+📌 Facebook: https://www.facebook.com/elrenuevoieer/
+
+📢 WhatsApp: 1-809-568-6039
+
+Para ofrendas
+https://elrenuevo.do/donaciones/
+
+#Renuevoencasa #ElRenuevoIEER
+
+página web: https://elrenuevo.do/
+
+Grandes cosas Dios está haciendo con esta familia.`
 //NOTE TEST
+
 async function bootstrap() {
 	const token = '7142614402:AAFWs6rh0iYue90vupiVc5UeibY51Dur2_Y';
 	const bot = new TelegramBot(token, { polling: true });
@@ -22,8 +42,7 @@ async function bootstrap() {
 			return;
 		}
 		bot.downloadFile(msg.audio.file_id, downloadFolder)
-			.then(function (filePath) {
-				console.log(filePath);
+			.then((filePath) => { 
 				exec(
 					'ffmpeg  -y -i ./' +
 						filePath +
@@ -72,11 +91,25 @@ async function bootstrap() {
 										console.error(`stderr: ${stderr}`);
 										return;
 									  }
-									console.log('Terminando el build')
-									bot.sendMessage(
-										chatId,
-										'Archivo cargado correctamente, proceder a generar el Render:: https://elrenuevo.oscgre.com/Audiogram y para descargar video final adjunto URL: https://video-renuevo.oscgre.com/video.mp4'
-									);
+
+									  bot.sendMessage(
+											chatId,
+											'Cargando video a Youtube!'
+										); 
+									  exec("ffmpeg -i out/video.mp4 -ss 00:00:05 -vframes 1 -y out/thumbnail.jpg", (error, stdout, stderr) => {
+										const fecha_actual = obtenerFechaActual();
+										
+										uploadVideo(`${caption.titulo} ${caption.versiculo} - Pastor Luis Soto - Días de Renovación - ${fecha_actual} Devocional`,description,caption.titulo);
+
+										console.log('Terminando el build')
+										bot.sendMessage(
+											chatId,
+											'Archivo cargado correctamente a youtube, proceder a generar el Render:: https://elrenuevo.oscgre.com/Audiogram y para descargar video final adjunto URL: https://video-renuevo.oscgre.com/video.mp4'
+										);
+
+									  });
+
+
 								});
 
 							}
@@ -104,49 +137,26 @@ async function bootstrap() {
 				}
 			});
 		});
+	} 
+	function obtenerFechaActual(): string {
+		const fecha = new Date();
+	
+		const dia = fecha.getDate();
+		const mes = fecha.getMonth() + 1; // Nota: los meses comienzan desde 0, por eso sumamos 1
+		const anio = fecha.getFullYear() % 100; // Obtener solo los últimos dos dígitos del año
+	
+		// Formatear los componentes de la fecha
+		const diaFormateado = dia < 10 ? `0${dia}` : dia;
+		const mesFormateado = mes < 10 ? `0${mes}` : mes;
+		const anioFormateado = anio < 10 ? `0${anio}` : anio;
+	
+		// Crear la cadena con el formato deseado
+		const fechaFormateada = `${diaFormateado}/${mesFormateado}/${anioFormateado}`;
+	
+		return fechaFormateada;
 	}
-	/*
-	async function enviarArchivoGrande(chatId,filePath) {
-		const stats = fs.statSync(filePath);
-		const fileSizeInBytes = stats.size;
-		const chunkSize = 1024 * 1024; // Tamaño del fragmento en bytes (1 MB en este caso)
-		const totalChunks = Math.ceil(fileSizeInBytes / chunkSize);
 	
-		console.log('fileSizeInBytes::',fileSizeInBytes)
-		// Enviar el archivo como documento
-		const documentOpts = {
-			chat_id: chatId,
-			document: fs.createReadStream(filePath),
-			caption: '¡Aquí está tu archivo grande!'
-		};
-	
-		console.log(documentOpts);
-		try{
-			const documentMessage = await bot.sendDocument(documentOpts);
-			console.log(documentMessage, totalChunks);
-	
-			// Obtener el ID del mensaje del documento enviado
-			const documentMessageId = documentMessage.message_id;
-		
-			// Enviar cada fragmento del archivo
-			for (let currentChunk = 1; currentChunk <= totalChunks; currentChunk++) {
-				const start = (currentChunk - 1) * chunkSize;
-				const end = currentChunk * chunkSize;
-		
-				const fileStream = fs.createReadStream(filePath, { start, end });
-		
-				// Enviar cada fragmento como un mensaje
-				const opts = {
-					chat_id: chatId,
-					document: fileStream,
-					reply_to_message_id: documentMessageId
-				};
-		
-				await bot.sendDocument(opts);
-			}
-		}catch(e){
-			console.log(e)
-		}
-	}*/
 }
 bootstrap();
+ 
+

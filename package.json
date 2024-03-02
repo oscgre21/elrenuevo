@@ -16,6 +16,8 @@
     "@remotion/cli": "4.0.65",
     "@remotion/media-utils": "4.0.65",
     "@remotion/zod-types": "4.0.65",
+    "google-auth-library": "^9.6.3",
+    "googleapis": "^133.0.0",
     "node-telegram-bot-api": "^0.64.0",
     "parse-srt": "1.0.0-alpha",
     "react": "^18.0.0",
