@@ -99,7 +99,7 @@ async function bootstrap() {
 									  exec("ffmpeg -i out/video.mp4 -ss 00:00:05 -vframes 1 -y out/thumbnail.jpg", (error, stdout, stderr) => {
 										const fecha_actual = obtenerFechaActual();
 										
-										uploadVideo(`${caption.titulo} ${caption.versiculo} - Pastor Luis Soto - Días de Renovación - ${fecha_actual} Devocional`,description,caption.titulo);
+										uploadVideo(`${caption.titulo} ${caption.versiculo} - Pastor Luis Soto - Días de Renovación - ${fecha_actual}`,description,caption.titulo);
 
 										console.log('Terminando el build')
 										bot.sendMessage(
